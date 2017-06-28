@@ -31,15 +31,16 @@
 }
 
 /*Homepage */
+
+
 .home {
   margin: auto;
-
-
-
 }
-.home > h1 {
+.parallax > h1 {
   text-align: center;
   font-size: 5em;
+  margin: 0px;
+  padding: 5%;
 }
 
 .home h2 {
@@ -50,4 +51,20 @@
   max-width: 600px;
   margin: auto;
   padding: 1%;
+  background-color: white;
+}
+
+/*parallax*/
+.parallax {
+    /* The image used */
+    background-image: url("dmitri-popov-192369.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
