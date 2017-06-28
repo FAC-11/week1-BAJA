@@ -54,15 +54,15 @@ so that I don't feel like I'm completely in the stone age.
 
 * About section should have tabs
 * Contact form should be a working HTML form which can be submitted and the data accessed by the team
-* Callable contact number 
+* Callable contact number
 
-# HOW 
+# HOW
 
-## navbar 
+## navbar
 ### desktop:
     * horizontal, fixed
     * left has BAJA
-    
+
 ### mobile:
 
 * dropdown headline
@@ -85,3 +85,7 @@ so that I don't feel like I'm completely in the stone age.
 ## contact
 * use google form to get client info
 
+## Learning section
+
+### About bar
+[Semantic HTML cheat sheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
