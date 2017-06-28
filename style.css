@@ -1,3 +1,4 @@
+/* Navbar */
 .container {
     display: inline-block;
     cursor: pointer;
@@ -27,4 +28,26 @@
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/*Homepage */
+.home {
+  margin: auto;
+
+
+
+}
+.home > h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.home h2 {
+  text-align: center;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  max-width: 600px;
+  margin: auto;
+  padding: 1%;
 }
