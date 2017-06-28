@@ -87,5 +87,11 @@ so that I don't feel like I'm completely in the stone age.
 
 ## Learning section
 
-### About bar
-[Semantic HTML cheat sheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
+* [Semantic HTML cheat sheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
+* [Parallax](https://www.w3schools.com/howto/howto_css_parallax.asp)
+* [checkbox hack] (https://css-tricks.com/examples/CSSTabs/radio.php)
+* [focus hack] (https://www.sitepoint.com/you-dont-need-javascript-for-that/)
+* [noscript tag] (https://developer.mozilla.org/en/docs/Web/HTML/Element/noscript)
+* [danger aria tabs] (http://simplyaccessible.com/article/danger-aria-tabs/)
+* [examples tabpanel](http://accessibility.athena-ict.com/aria/examples/tabpanel2.shtml)
+* [nonscript tag](https://www.w3schools.com/tags/tag_noscript.asp)
