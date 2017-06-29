@@ -10,14 +10,19 @@ h4 {
 }
 /* Navbar */
 .container {
-    display: inline-block;
+    display: none;
     cursor: pointer;
     margin: 5px 10px;
     position: absolute;
     top: 8px;
     right: 10px;
-
 }
+
+.display-burger {
+    display: inline-block;
+}
+
+
 
 @media screen and (min-width: 600px){
   .container{
@@ -104,6 +109,20 @@ h4 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+/*no JS Navbar*/
+
+noscript > a {
+    display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+noscript > a {
+    display: block !important;
+}
+}
+
+
 
 /*Homepage */
 
