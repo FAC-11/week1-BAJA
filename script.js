@@ -3,7 +3,6 @@ var navBarSelector = document.getElementById("myTopnav");
 var burgerSelector = document.getElementById("burger");
 var navLinksArraySelector = navBarSelector.querySelectorAll("A");
 
-window.onload = callEventListeners;
 
 // allows navbar to open and close on mobile devices
 function toggleNavbar() {
@@ -28,13 +27,15 @@ function addBurgerListener() {
 }
 
 function addNavlinkListeners(){
-
   navLinksArraySelector.forEach(function(elem){
     elem.addEventListener("click", closeNavbar);
   })
 }
 
+//functions to run on page load
+function setup() {
+  burgerSelector.classList.add('display-burger');
+  callEventListeners();
+}
 
-
-// testing
-function callback(){console.log("YIPPEE")}
+window.onload = setup;
