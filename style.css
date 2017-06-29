@@ -170,11 +170,12 @@ noscript > a {
 
 /* styling about section and creating tabbing design */
 
-#about {
+
+.aboutContainer {
   box-sizing: border-box;
 }
 
-#about {
+.aboutContainer {
   position: relative;
   width: 600px;
   margin: 0 auto;
@@ -183,13 +184,13 @@ noscript > a {
 }
 
 @media screen and (max-width: 600px){
-  #about{
+.aboutContainer{
     max-width: 500px;
     width: auto;
   }
 }
 
-#about:after {
+.aboutContainer:after {
   content: 'BAJA';
   position: absolute;
   left: 0;
@@ -212,6 +213,7 @@ noscript > a {
   padding: 10px;
   border-radius: 12px 12px 0 0;
   width: 197px;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 600px){
@@ -229,7 +231,7 @@ noscript > a {
   display: block;
   position: absolute;
   background-color: lightgrey;
-  height: 120px;
+  height: auto;
   width: 100%;
   left: 0;
   z-index: 2;
@@ -237,6 +239,8 @@ noscript > a {
   top: 0px;
   text-align: center;
   padding-top: 48px;
+  padding-bottom: 48px;
+
 }
 
 .p_about {
@@ -354,4 +358,3 @@ footer > img {
    width: 20%;
    height: 20%; 
 }
-
