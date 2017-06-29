@@ -223,14 +223,14 @@ noscript > a {
 }
 
 .aboutContent:focus .aboutButton, .aboutButton:focus {
-  background-color: lightgrey;
+  background-color: #333;
   outline: none;
 }
 
 .aboutButton:focus + p, .aboutContent:focus P {
   display: block;
   position: absolute;
-  background-color: lightgrey;
+  background-color: #333;
   height: auto;
   width: 100%;
   left: 0;
@@ -241,11 +241,13 @@ noscript > a {
   padding-top: 48px;
   padding-bottom: 48px;
 
+
 }
 
 .p_about {
   display: none;
   font-size: 2em;
+color: white;
 }
 
 .aboutContent {
