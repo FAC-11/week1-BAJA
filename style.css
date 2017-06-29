@@ -1,4 +1,8 @@
 /*full page styling*/
+body {
+    position: relative;
+}
+
 h3 {
   text-align: center;
   font-size: 3em;
@@ -336,5 +340,18 @@ blockquote {
 
 #message {
     height: 20vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer > img {
+   width: 20%;
+   height: 20%; 
 }
 
