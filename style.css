@@ -345,6 +345,12 @@ blockquote {
     width: 50%;
 }
 
+@media(max-width: 600px) {
+   #contact input, textarea, button {
+       width: 90%;
+   } 
+}
+
 #message {
     height: 20vh;
 }
