@@ -209,6 +209,7 @@ noscript>a {
   text-align: center;
   background-color: dimgrey;
   padding: 40px 0;
+
 }
 
 .aboutButton {
@@ -231,6 +232,7 @@ noscript>a {
   }
 }
 
+
 .aboutContent:focus .aboutButton, .aboutButton:focus {
   background-color: #333;
   outline: none;
@@ -245,10 +247,21 @@ noscript>a {
   left: 0;
   z-index: 2;
   outline: none;
-  top: 0px;
+  top: 38px;
+  font-size: 1.5em;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
+  padding: 48px 100px;
+  min-height: 200px;
+box-sizing: border-box;
+margin:0;
+
+}
+
+.aboutContent:last-child .aboutButton{
+  width:199.5px;
+
 }
 
 .p_about {
