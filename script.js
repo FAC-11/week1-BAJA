@@ -6,28 +6,28 @@ var navLinksArraySelector = navBarSelector.querySelectorAll("A");
 
 // allows navbar to open and close on mobile devices
 function toggleNavbar() {
-    burgerSelector.classList.toggle("change");
-    navBarSelector.classList.toggle("responsive")
+  burgerSelector.classList.toggle("change");
+  navBarSelector.classList.toggle("responsive")
 }
 
-function closeNavbar(){
+function closeNavbar() {
   burgerSelector.classList.remove("change");
   navBarSelector.classList.remove("responsive")
 }
 
 // Event list caller
-function callEventListeners(){
+function callEventListeners() {
   addBurgerListener();
   addNavlinkListeners();
 }
 
 // Event listeners
 function addBurgerListener() {
-  burgerSelector.addEventListener("click",toggleNavbar);
+  burgerSelector.addEventListener("click", toggleNavbar);
 }
 
-function addNavlinkListeners(){
-  navLinksArraySelector.forEach(function(elem){
+function addNavlinkListeners() {
+  navLinksArraySelector.forEach(function(elem) {
     elem.addEventListener("click", closeNavbar);
   })
 }

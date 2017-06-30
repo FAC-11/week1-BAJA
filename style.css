@@ -1,7 +1,8 @@
 /*full page styling*/
+
 body {
-    position: relative;
-    font-family: 'Lato';
+  position: relative;
+  font-family: 'Lato';
 }
 
 h3 {
@@ -13,37 +14,35 @@ h4 {
   text-align: center;
   font-size: 2em;
 }
+
+
 /* Navbar */
+
 .container {
-    display: none;
-    cursor: pointer;
-    margin: 5px 10px;
-    position: absolute;
-    top: 0;
-    right: 10px;
+  display: none;
+  cursor: pointer;
+  margin: 5px 10px;
+  position: absolute;
+  top: 0;
+  right: 10px;
 }
 
 .display-burger {
-    display: inline-block;
+  display: inline-block;
 }
 
-
-
-@media screen and (min-width: 600px){
-  .container{
-    display:none;
-
+@media screen and (min-width: 600px) {
+  .container {
+    display: none;
   }
 }
 
-
-
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
 .topnav {
@@ -66,25 +65,28 @@ h4 {
   color: black;
 }
 
-
 .topnav .icon {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
   }
   .topnav a:hover {
-      background-color: #333;
-      color: #f2f2f2;
+    background-color: #333;
+    color: #f2f2f2;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -95,46 +97,48 @@ h4 {
     display: block;
     text-align: left;
   }
-
 }
+
 
 /* Rotate first bar */
+
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
+
 
 /* Fade out the second bar */
+
 .change .bar2 {
-    opacity: 0;
+  opacity: 0;
 }
 
+
 /* Rotate last bar */
+
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
+
 
 /*no JS Navbar*/
 
-noscript > a {
-    display: none !important;
+noscript>a {
+  display: none !important;
 }
 
 @media screen and (max-width: 600px) {
-noscript > a {
+  noscript>a {
     display: block !important;
+  }
 }
-}
-
 
 
 /*Homepage */
 
-
-
-
-.parallax > h1 {
+.parallax>h1 {
   text-align: center;
   font-size: 5em;
   margin: 0px;
@@ -152,25 +156,29 @@ noscript > a {
   background-color: white;
 }
 
+
 /*parallax*/
+
 .parallax {
-    /* The image used */
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image: url("dmitri-popov-192369.jpg");
-    margin: auto;
+  /* The image used */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("dmitri-popov-192369.jpg");
+  margin: auto;
 }
 
+
 /* setting height of page to size of screen */
-.pageHeight{
+
+.pageHeight {
   height: 100vh;
 }
 
-/* styling about section and creating tabbing design */
 
+/* styling about section and creating tabbing design */
 
 .aboutContainer {
   box-sizing: border-box;
@@ -184,10 +192,10 @@ noscript > a {
   color: white;
 }
 
-@media screen and (max-width: 600px){
-.aboutContainer{
+@media screen and (max-width: 600px) {
+  .aboutContainer {
     max-width: 500px;
-    width: auto ;
+    width: auto;
   }
 }
 
@@ -217,10 +225,10 @@ noscript > a {
   font-size: 1em;
 }
 
-@media screen and (max-width: 600px){
-.aboutButton{
-  width: auto;
-}
+@media screen and (max-width: 600px) {
+  .aboutButton {
+    width: auto;
+  }
 }
 
 .aboutContent:focus .aboutButton, .aboutButton:focus {
@@ -228,7 +236,7 @@ noscript > a {
   outline: none;
 }
 
-.aboutButton:focus + p, .aboutContent:focus P {
+.aboutButton:focus+p, .aboutContent:focus P {
   display: block;
   position: absolute;
   background-color: #333;
@@ -241,14 +249,12 @@ noscript > a {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-
-
 }
 
 .p_about {
   display: none;
   font-size: 2em;
-color: white;
+  color: white;
 }
 
 .aboutContent {
@@ -258,8 +264,6 @@ color: white;
 .aboutContent:focus {
   outline: none;
 }
-
-
 
 .p {
   margin-top: 300px;
@@ -271,39 +275,37 @@ color: white;
 
 /*Our Team*/
 
-#team::after{
+#team::after {
   content: "";
   display: table;
   clear: both;
 }
 
 .gallery {
-   margin: 10px;
-   padding: 10px;
-   max-width: 300px;
-   height: auto;
-   display: inline-block;
-   background-color: white;
-   border-radius: 8px;
-   box-shadow: 5px 5px 10px grey;
-
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  height: auto;
+  display: inline-block;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px grey;
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .gallery:hover {
-    border: 1px solid #777;
-  }
-
+  border: 1px solid #777;
+}
 
 .fa {
   color: black;
-  font-size:3em;
-
+  font-size: 3em;
 }
+
 blockquote {
   text-align: center;
 }
@@ -314,7 +316,9 @@ blockquote {
   padding-bottom: 60px;
 }
 
+
 /*media quiery for stacking team information*/
+
 @media screen and (max-width: 800px) {
   .team_container {
     display: block;
@@ -324,8 +328,7 @@ blockquote {
 @media screen and (max-width: 695px) {
   .team_container {
     display: flex;
-    flex-wrap:wrap;
-
+    flex-wrap: wrap;
   }
 }
 
@@ -333,37 +336,38 @@ blockquote {
   padding: 30px;
 }
 
+
 /*CONTACT*/
 
 #contact input, textarea, button {
-    display: block;
-    margin: 1% auto;
-    padding: 1%;
-    box-sizing: border-box;
-    font-size: 1.5rem;
-    border: solid 1.1px;
-    width: 50%;
+  display: block;
+  margin: 1% auto;
+  padding: 1%;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  border: solid 1.1px;
+  width: 50%;
 }
 
 @media(max-width: 600px) {
-   #contact input, textarea, button {
-       width: 90%;
-   }
+  #contact input, textarea, button {
+    width: 90%;
+  }
 }
 
 #message {
-    height: 20vh;
+  height: 20vh;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-footer > img {
-   width: 15%;
-   height: 15%;
+footer>img {
+  width: 15%;
+  height: 15%;
 }
