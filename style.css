@@ -187,7 +187,7 @@ noscript > a {
 @media screen and (max-width: 600px){
 .aboutContainer{
     max-width: 500px;
-    width: auto;
+    width: auto ;
   }
 }
 
@@ -348,7 +348,7 @@ blockquote {
 @media(max-width: 600px) {
    #contact input, textarea, button {
        width: 90%;
-   } 
+   }
 }
 
 #message {
@@ -365,5 +365,5 @@ footer {
 
 footer > img {
    width: 15%;
-   height: 15%; 
+   height: 15%;
 }
